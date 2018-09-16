@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <h1>Here is a list of all the traienrs</h1>
+    <h2></h2>
+
+
+    <ol>
+  {% for trainer in trainers %}
+  <h2> <li> {{ trainer.user.username }}</li> </h2>
+  {% endfor%}
+</ol>
+
+  </body>
+</html>
